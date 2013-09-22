@@ -23,11 +23,15 @@ git config --global credential.helper store
 Testing update w/o prompting
 ----------------------------
 git clone https://github.com/itty-bits/itty-bits-test.git  
-git commit -a -m "test update w timestamp"  
+git commit -a -m "Testing update w/o prompting"  
 git status  
-	# On branch master  
-	# Your branch is ahead of 'origin/master' by 1 commit.  
-	#  
-	nothing to commit, working directory clean  
-git push origin master  
+<table>
+<tr>
+	<td># On branch master</td>
+	<td># Your branch is ahead of 'origin/master' by 1 commit.</td>
+	<td>#</td>
+	<td>nothing to commit, working directory clean</td>
+</tr>
+</table>
+git push  
 
