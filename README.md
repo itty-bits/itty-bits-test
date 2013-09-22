@@ -17,3 +17,5 @@ git add README.md
 git commit -m "update README"  
 git push origin master  
 
+git config --global push.default simple  
+git config --global credential.helper store  
