@@ -14,6 +14,7 @@ git push -u origin master
 
 Update
 -------------------------------------
+git add README.md
 git commit -m "update README"
 git push origin master
 -------------------------------------
