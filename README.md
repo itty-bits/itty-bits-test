@@ -20,4 +20,14 @@ git push origin master
 git config --global push.default simple  
 git config --global credential.helper store  
 
-13:54 2013.09.22
+Testing update w/o prompting
+----------------------------
+git clone https://github.com/itty-bits/itty-bits-test.git  
+git commit -a -m "test update w timestamp"  
+git status  
+	# On branch master  
+	# Your branch is ahead of 'origin/master' by 1 commit.  
+	#  
+	nothing to commit, working directory clean  
+git push origin master  
+
