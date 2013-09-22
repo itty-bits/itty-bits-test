@@ -19,3 +19,5 @@ git push origin master
 
 git config --global push.default simple  
 git config --global credential.helper store  
+
+13:54 2013.09.22
