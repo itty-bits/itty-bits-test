@@ -34,3 +34,10 @@ git status
 </table>
 git push  
 
+Add MQTT Service Hook
+---------------------
+under Settings | (top left menu) Service Hooks | MQTT publish
+  fill in Topic = "github/itty-bits/itty-bits-test"
+
+git commit -a -m "Add MQTT Service Hook"
+git push
